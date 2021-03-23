@@ -336,7 +336,7 @@ console.log(input)
 let jump = 0;
 function takeFort() {
     for(let i = 0; i < input.length; i++){
-        if(input[i][jump] == landMine){
+        if(input[i][0] == landMine){
             robot++;
         }
         jump +=1;
